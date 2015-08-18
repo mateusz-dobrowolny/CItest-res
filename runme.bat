@@ -16,8 +16,5 @@ REM Create file with paths for the spoon.me files:
 cd spoonme
 FOR /F "tokens=* " %%i IN (%CItest%\CItest-res\JenkinsCI.txt) DO %%i
 
-REM dla ka¿dej aplikacji z pliku txt wykonaj:  launch.bat`
-
-REM przeleæ po œcie¿kach i 
 REM spoon logujesz siê na konto testbuild
 REM spoon build --overwrite spoon.me
